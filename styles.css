@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Work+Sans&display=swap');
+
+body {
+    background-image: url(assets/skyline.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    background-position: 50% 0%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: -10;    
+    margin: 0;
+    font-family: "Work Sans";
+}
+
+.logo {
+    float: left;
+    padding: 28px 0px 30px 40px; /*top, right, bottom, left*/
+    max-width: 250px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    margin-left: 800px;
+    list-style-type: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 60px 120px 40px 60px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: green;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.section {
+    width: 100%;
+    color: white;
+    margin-top: 90vh;
+    background-color:white;
+    overflow: hidden; /*The overflow property specifies what should happen if content overflows an element's box. */
+}
