@@ -123,5 +123,6 @@ li {
     color: white;
     padding-left: 8%;
     padding-right: 2%;
+    padding-top: 5%;
     transform: rotateY(180deg);
 }
