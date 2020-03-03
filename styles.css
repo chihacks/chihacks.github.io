@@ -15,7 +15,7 @@ body {
 
 .logo {
     float: left;
-    padding: 20px 0px 30px 40px; /*top, right, bottom, left*/
+    padding: 20px 0px 30px 20px; /*top, right, bottom, left*/
     max-width: 250px;
 }
 
@@ -170,7 +170,8 @@ li {
 .team-img {
     max-width: 40%;
     margin-top: 5%;
-    padding-right: 10%;
+    display: inline-block;
+    padding-right: 8%;
     flex-direction: row;
 }
 
